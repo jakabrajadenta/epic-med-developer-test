@@ -1,4 +1,4 @@
-package com.epicmed.developer.assesment;
+package com.epicmed.developer.assessment;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
