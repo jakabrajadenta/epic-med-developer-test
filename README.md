@@ -213,12 +213,13 @@ GET /api/users
 
 #### Query Parameters
 
-| Parameter | Type    | Required | Description              |
-|-----------|---------|----------|--------------------------|
-| `page`    | Integer | Yes      | Page number (default: 1) |
-| `size`    | Integer | Yes      | Page size (default: 10)  |
-| `name`    | String  | Optional | Filter data by name      |
-| `email`   | String  | Optional | Filter data by email     |
+| Parameter | Type    | Required | Description                                    |
+|-----------|---------|----------|------------------------------------------------|
+| `page`    | Integer | Yes      | Page number (default: 1)                       |
+| `size`    | Integer | Yes      | Page size (default: 10)                        |
+| `name`    | String  | Optional | Filter data by name                            |
+| `email`   | String  | Optional | Filter data by email                           |
+| `fetch`   | boolean | Optional | Mark to get data from external (default false) |
 
 ---
 
